@@ -1,0 +1,100 @@
+:root {
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	line-height: 1.7;
+}
+
+/* =========== start landing page ================= */
+.landing-page {
+	background-image: linear-gradient(to right bottom, rgba(33, 147, 176, .3), rgba(109, 213, 237, .3)),
+		url(../img/01.jpg);
+	min-height: 100vh;
+	background-size: cover;
+}
+
+.header__nav {
+	display: flex;
+	padding: 3rem;
+}
+
+.logo {
+	flex-basis: 134%;
+}
+
+.header__items {
+	list-style: none;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.header__item {
+	margin-left: 2rem;
+}
+
+.header__link:link,
+.header__link:visited {
+	text-decoration: none;
+	color: #fff;
+	padding-bottom: .6rem;
+	transition: all .3s;
+}
+.header__link:hover,
+.header__link:active {
+	border-bottom: 1px solid rgb(255, 95, 34);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+	color: rgb(255, 95, 34);
+}
+
+.header__text-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* display: flex;
+    flex-direction: column;
+    align-items: center; */
+	width: 40%;
+	/* text-align: center; */
+	border: 2px solid #27ab067a;
+	border-radius: 8px;
+	/* box-shadow: 0 .5rem 1rem rgba(0,0,0,.1); */
+	padding: 0 2rem 1rem;
+}
+
+.heading-primary {
+	color: rgb(255, 95, 34);
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	font-size: 4.5rem;
+	font-weight: 300;
+}
+
+/* =========== end landing page ================= */
+/* =========== utilities ================= */
+.u-center-text {
+	text-align: center;
+}
+.u-margin-bottom-md {
+	margin-bottom: 2rem;
+}
+
+.blue {
+	color: #03a9f4;
+}
+
+/* =========== end utilities ================= */
